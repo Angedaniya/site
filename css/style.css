@@ -63,10 +63,17 @@ video {
 .telegram-button:hover {
     background-color: #006699;
 }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
 .gallery img {
   width: 150px;
   height: auto;
-  margin: 5px;
   border-radius: 8px;
   transition: transform 0.2s;
 }
@@ -80,6 +87,7 @@ video {
   width: 100%;
   max-width: 400px;
   margin: 10px;
+  border-radius: 8px;
 }
 
 .telegram-button {
