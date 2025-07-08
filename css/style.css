@@ -63,3 +63,36 @@ video {
 .telegram-button:hover {
     background-color: #006699;
 }
+.gallery img {
+  width: 150px;
+  height: auto;
+  margin: 5px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.video-section video {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px;
+}
+
+.telegram-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0088cc;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.telegram-button:hover {
+  background-color: #005577;
+}
